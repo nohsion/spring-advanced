@@ -1,4 +1,4 @@
-package hello.advanced.v1;
+package hello.advanced.app.v1;
 
 import hello.advanced.trace.TraceStatus;
 import hello.advanced.trace.hellotrace.HelloTraceV1;
@@ -18,7 +18,7 @@ public class OrderControllerV1 {
 
         TraceStatus status = null;
         try {
-            status = trace.begin("OrderControllerV1.request()");
+            status = trace.begin("OrderController.request()");
             orderService.orderItem(itemId);
             trace.end(status);
             return "ok";
