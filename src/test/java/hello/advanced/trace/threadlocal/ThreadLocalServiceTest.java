@@ -15,7 +15,7 @@ public class ThreadLocalServiceTest {
 
     @Test
     @DisplayName("쓰레드로컬 - 동시성 문제 발생X")
-    void field() {
+    void threadLocal() {
         log.info("main start");
         Runnable userA = () -> {
             service.logic("userA");
