@@ -1,12 +1,11 @@
 package hello.advanced.trace.threadlocal;
 
-import hello.advanced.trace.threadlocal.code.FieldService;
 import hello.advanced.trace.threadlocal.code.ThreadLocalService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static hello.advanced.util.ThreadUtils.sleep;
+import static hello.common.util.ThreadUtils.sleep;
 
 @Slf4j
 public class ThreadLocalServiceTest {

@@ -1,11 +1,10 @@
 package hello.advanced.trace.logtrace;
 
-import hello.advanced.trace.TraceStatus;
-import hello.advanced.util.AdvancedConstant;
+import hello.common.trace.TraceStatus;
+import hello.common.trace.logtrace.ThreadLocalLogTrace;
+import hello.common.util.AdvancedConstant;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @Slf4j
 class ThreadLocalLogTraceTest {

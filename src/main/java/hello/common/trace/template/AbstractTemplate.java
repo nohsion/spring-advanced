@@ -1,7 +1,7 @@
-package hello.advanced.trace.template;
+package hello.common.trace.template;
 
-import hello.advanced.trace.TraceStatus;
-import hello.advanced.trace.logtrace.LogTrace;
+import hello.common.trace.TraceStatus;
+import hello.common.trace.logtrace.LogTrace;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static hello.advanced.util.ThreadUtils.*;
+import static hello.common.util.ThreadUtils.*;
 
 @Slf4j
 public class FieldServiceTest {

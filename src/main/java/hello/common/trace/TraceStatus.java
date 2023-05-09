@@ -1,4 +1,4 @@
-package hello.advanced.trace;
+package hello.common.trace;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

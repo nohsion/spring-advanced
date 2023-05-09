@@ -1,4 +1,4 @@
-package hello.advanced.util;
+package hello.common.util;
 
 public class ThreadUtils {
 

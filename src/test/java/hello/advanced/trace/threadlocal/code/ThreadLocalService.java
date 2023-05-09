@@ -2,7 +2,7 @@ package hello.advanced.trace.threadlocal.code;
 
 import lombok.extern.slf4j.Slf4j;
 
-import static hello.advanced.util.ThreadUtils.*;
+import static hello.common.util.ThreadUtils.*;
 
 @Slf4j
 public class ThreadLocalService {
